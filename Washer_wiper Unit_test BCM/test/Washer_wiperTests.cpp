@@ -290,8 +290,8 @@ TEST_F(WasherWiperTest, WiperOffMode)
    // washer_wiper_MainFunction();
       washer_wiper_MainFuntion();
 
-    //EXPECT_EQ(value, WIPER_OFF);
-    EXPECT_EQ(value, HIGH_WIPER);
+    EXPECT_EQ(value, WIPER_OFF);
+    //EXPECT_EQ(value, HIGH_WIPER);
 }
 
 // -----------------------------------------------------------------------------
