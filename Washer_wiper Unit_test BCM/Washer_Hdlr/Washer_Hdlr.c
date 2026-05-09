@@ -29,5 +29,6 @@ int washer_Hdlr_ReadCmd(void)
  
 void washer_Hdlr_InitFun(void)
 {
-    current_washer_mode = WASHER_OFF_REQUESTED;
+    //current_washer_mode = WASHER_OFF_REQUESTED;
+     current_washer_mode = WASHER_OFF;
 }
