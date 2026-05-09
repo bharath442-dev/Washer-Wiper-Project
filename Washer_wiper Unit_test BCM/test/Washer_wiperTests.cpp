@@ -288,7 +288,7 @@ TEST_F(WasherWiperTest, WiperOffMode)
         .WillOnce(::testing::Return(WASHER_OFF));
 
    // washer_wiper_MainFunction();
-      washer_wiper_MainFuntion();
+      washer_wiper_MainFunction();
 
     EXPECT_EQ(value, WIPER_OFF);
     //EXPECT_EQ(value, HIGH_WIPER);
@@ -308,7 +308,7 @@ TEST_F(WasherWiperTest, IntermittentMode)
         .WillOnce(::testing::Return(WASHER_OFF));
 
     //washer_wiper_MainFunction();
-      washer_wiper_MainFuntion();
+      washer_wiper_MainFunction();
 
     EXPECT_EQ(value, INTERMITTENT_WIPER);
 }
@@ -327,7 +327,7 @@ TEST_F(WasherWiperTest, LowWiperMode)
         .WillOnce(::testing::Return(WASHER_OFF));
 
    // washer_wiper_MainFunction();
-      washer_wiper_MainFuntion();
+      washer_wiper_MainFunction();
 
     EXPECT_EQ(value, LOW_WIPER);
 }
@@ -346,7 +346,7 @@ TEST_F(WasherWiperTest, HighWiperMode)
         .WillOnce(::testing::Return(WASHER_OFF));
 
     //washer_wiper_MainFunction();
-      washer_wiper_MainFuntion();
+      washer_wiper_MainFunction();
 
     EXPECT_EQ(value, HIGH_WIPER);
 }
