@@ -115,7 +115,7 @@ void washer_wiper_InitFunction(void)
 //     washer_wiper_controlwipers();
 // }
 
-void washer_wiper_MainFuntion(void)
+void washer_wiper_MainFunction(void)
 {
     washer_wiper_ReadInputs();
 
