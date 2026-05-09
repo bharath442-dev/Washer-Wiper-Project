@@ -213,7 +213,7 @@ extern "C"
 MockComLayer* mock_com = nullptr;
 
 // Global value holder
-wiper_mode value;
+int value;
 
 // -----------------------------------------------------------------------------
 // Mocked C Functions
@@ -256,6 +256,7 @@ extern "C"
         value = *ptr;
     }
 }
+
 // -----------------------------------------------------------------------------
 // Test Fixture
 // -----------------------------------------------------------------------------
@@ -286,11 +287,9 @@ TEST_F(WasherWiperTest, WiperOffMode)
     EXPECT_CALL(mock, Com_ReadwasherRequest())
         .WillOnce(::testing::Return(WASHER_OFF));
 
-   // washer_wiper_MainFunction();
-      washer_wiper_MainFunction();
+    washer_wiper_MainFunction();
 
     EXPECT_EQ(value, WIPER_OFF);
-    //EXPECT_EQ(value, HIGH_WIPER);
 }
 
 // -----------------------------------------------------------------------------
@@ -306,8 +305,7 @@ TEST_F(WasherWiperTest, IntermittentMode)
     EXPECT_CALL(mock, Com_ReadwasherRequest())
         .WillOnce(::testing::Return(WASHER_OFF));
 
-    //washer_wiper_MainFunction();
-      washer_wiper_MainFunction();
+    washer_wiper_MainFunction();
 
     EXPECT_EQ(value, INTERMITTENT_WIPER);
 }
@@ -325,8 +323,7 @@ TEST_F(WasherWiperTest, LowWiperMode)
     EXPECT_CALL(mock, Com_ReadwasherRequest())
         .WillOnce(::testing::Return(WASHER_OFF));
 
-   // washer_wiper_MainFunction();
-      washer_wiper_MainFunction();
+    washer_wiper_MainFunction();
 
     EXPECT_EQ(value, LOW_WIPER);
 }
@@ -344,8 +341,7 @@ TEST_F(WasherWiperTest, HighWiperMode)
     EXPECT_CALL(mock, Com_ReadwasherRequest())
         .WillOnce(::testing::Return(WASHER_OFF));
 
-    //washer_wiper_MainFunction();
-      washer_wiper_MainFunction();
+    washer_wiper_MainFunction();
 
     EXPECT_EQ(value, HIGH_WIPER);
 }
