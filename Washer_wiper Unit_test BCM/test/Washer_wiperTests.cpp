@@ -199,15 +199,17 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 
-#include "Washer_wiperTests_mock.hpp"
-#include "Washer_wiperTests.hpp"
-
 extern "C"
 {
     #include "../Washer_wiperCtrl/Washer_wiperCtrl.h"
     #include "../Washer_Hdlr/Washer_Hdlr.h"
     #include "../Wiper_Hdlr/Wiper_Hdlr.h"
+    #include "../Com/Com.h"
+    #include "../Rte/Rte.h"
 }
+
+#include "Washer_wiperTests_mock.hpp"
+#include "Washer_wiperTests.hpp"
 
 // Global mock pointer
 MockComLayer* mock_com = nullptr;
