@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/bhara/Dropbox/My PC (LAPTOP-OJPQEGCM)/Downloads/WASHER_WIPER UNIT_TEST BCM 1/Washer_wiper Unit_test BCM/build/cmake_install.cmake",
+		"C:/Users/bhara/Dropbox/My PC (LAPTOP-OJPQEGCM)/Downloads/WASHER_WIPER UNIT_TEST BCM 1/Washer_wiper Unit_test BCM/build/googletest/cmake_install.cmake",
+		"C:/Users/bhara/Dropbox/My PC (LAPTOP-OJPQEGCM)/Downloads/WASHER_WIPER UNIT_TEST BCM 1/Washer_wiper Unit_test BCM/build/googletest/googlemock/cmake_install.cmake",
+		"C:/Users/bhara/Dropbox/My PC (LAPTOP-OJPQEGCM)/Downloads/WASHER_WIPER UNIT_TEST BCM 1/Washer_wiper Unit_test BCM/build/googletest/googletest/cmake_install.cmake",
+		"C:/Users/bhara/Dropbox/My PC (LAPTOP-OJPQEGCM)/Downloads/WASHER_WIPER UNIT_TEST BCM 1/Washer_wiper Unit_test BCM/build/Washer_wiperCtrl/cmake_install.cmake",
+		"C:/Users/bhara/Dropbox/My PC (LAPTOP-OJPQEGCM)/Downloads/WASHER_WIPER UNIT_TEST BCM 1/Washer_wiper Unit_test BCM/build/Washer_Hdlr/cmake_install.cmake",
+		"C:/Users/bhara/Dropbox/My PC (LAPTOP-OJPQEGCM)/Downloads/WASHER_WIPER UNIT_TEST BCM 1/Washer_wiper Unit_test BCM/build/Wiper_Hdlr/cmake_install.cmake",
+		"C:/Users/bhara/Dropbox/My PC (LAPTOP-OJPQEGCM)/Downloads/WASHER_WIPER UNIT_TEST BCM 1/Washer_wiper Unit_test BCM/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

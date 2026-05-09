@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libwiper_Hdlr.a CMakeFiles/wiper_Hdlr.dir/Wiper_Hdlr.c.obj
+C:\msys64\mingw64\bin\ranlib.exe libwiper_Hdlr.a
