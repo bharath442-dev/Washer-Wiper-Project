@@ -288,7 +288,7 @@ TEST_F(WasherWiperTest, WiperOffMode)
         .WillOnce(::testing::Return(WASHER_OFF));
 
    // washer_wiper_MainFunction();
-      washer_wiper_MainFuntion();
+      washer_wiper_MainFunction();
 
     EXPECT_EQ(value, WIPER_OFF);
     //EXPECT_EQ(value, HIGH_WIPER);
