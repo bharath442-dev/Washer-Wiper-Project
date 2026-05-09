@@ -221,22 +221,22 @@ wiper_mode value;
 
 extern "C"
 {
-    int Com_ReadVehicleMode()
+    int Com_ReadVehicleMode(void)
     {
         return mock_com->Com_ReadVehicleMode();
     }
 
-    int Com_ReadwiperRequest()
+    int Com_ReadwiperRequest(void)
     {
         return mock_com->Com_ReadwiperRequest();
     }
 
-    int Com_ReadwasherRequest()
+    int Com_ReadwasherRequest(void)
     {
         return mock_com->Com_ReadwasherRequest();
     }
 
-    void Rte_Write_Washer(wiper_mode* ptr)
+    void Rte_Write_Washer(washer_mode* ptr)
     {
         value = *ptr;
     }
@@ -256,7 +256,6 @@ extern "C"
         value = *ptr;
     }
 }
-
 // -----------------------------------------------------------------------------
 // Test Fixture
 // -----------------------------------------------------------------------------
