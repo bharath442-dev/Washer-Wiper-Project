@@ -54,7 +54,7 @@ enum wiperStatus
 };
  
  
-extern void washer_wiper_MainFuntion(void);
+extern void washer_wiper_MainFunction(void);
 extern void washer_wiper_InitFunction(void);
 extern int washer_wiper_controlwipers(void);
 extern int washer_wiper_controlwasher(void);
