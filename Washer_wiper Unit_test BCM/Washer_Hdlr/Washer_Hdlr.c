@@ -4,7 +4,7 @@
  
 // washer_mode current_wiper_mode = WASHER_OFF;
 washer_mode current_washer_mode = WASHER_OFF;
- 
+
 /* called every 5 ms */
 void washer_Hdlr_MainFunction(void)
 {
